@@ -28,23 +28,26 @@ docker-compose up
 In order to use the CAMlendar, you need to create an account and log in. Navigate to the register page using the navigation bar.
 ---
 ![](https://media.giphy.com/media/88HdOd52wM3fo2bdLB/giphy.gif)
-After you log in, you will be welcomed by your own calendar. You can easily add an event by just clicking the date you want. You can set the details if you want, but if you don't want to bother, just give it a title and CAMlendar will handle the rest.
 ---
+After you log in, you will be welcomed by your own calendar. You can easily add an event by just clicking the date you want. You can set the details if you want, but if you don't want to bother, just give it a title and CAMlendar will handle the rest.
+
 
 ![](https://media.giphy.com/media/KBbIt2FVejMR6AsGFf/giphy.gif)
-You have have an event that lasts longer than a day? No worries, CAMlendar got you covered. You can just select the dates easily by dragging the mouse on them. Of course you can arrange the hours or change dates afterwards, so don't worry about that.
 ---
+You have have an event that lasts longer than a day? No worries, CAMlendar got you covered. You can just select the dates easily by dragging the mouse on them. Of course you can arrange the hours or change dates afterwards, so don't worry about that.
 
 ![](https://media.giphy.com/media/kxYYXdd02Ub5FKvcoR/giphy.gif)
-To edit an event, you can just simply click on it. You can change from date to the title of event, or simply delete it.
 ---
+To edit an event, you can just simply click on it. You can change from date to the title of event, or simply delete it.
+
 
 ![](https://media.giphy.com/media/BoGpJhtbpBi0xkpuzZ/giphy.gif)
-If you don't want to deal with all the date selecting stuff to edit an event, we have the thing just for you. You can simply click and drag the events to your desired dates. Really easy to use and fun!
 ---
+If you don't want to deal with all the date selecting stuff to edit an event, we have the thing just for you. You can simply click and drag the events to your desired dates. Really easy to use and fun!
 
 ![](https://media.giphy.com/media/FQOqdMqFNOfQaaz0K7/giphy.gif)
-Some days can get really busy. You might want to get your eyes off the week and focus on today in these days. In CAMlendar, you can switch to the daily view with one click. You can also use all the event features on this view too.
 ---
+Some days can get really busy. You might want to get your eyes off the week and focus on today in these days. In CAMlendar, you can switch to the daily view with one click. You can also use all the event features on this view too.
+
 
 These are some of the cool features of CAMlendar. You can keep using it to discover more!
