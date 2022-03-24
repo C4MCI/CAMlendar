@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+{% from "includes/_formhelpers.html" import render_field %}
+
+{% block head %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.css">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.js"></script>
+<script src="static/js/calendar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.5/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+
+{% endblock head %}
+
+{% block body %}
+{% if session["logged_in"] %}
+<div id="calendar"></div>
+
+
+<div class="modal fade" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-info">
+        <h5 class="modal-title" id="title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="post" id="event-form">
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            {{render_field(form.event)}}
+
+            {{render_field(form.startDate)}} 
+
+            {{render_field(form.endDate)}} 
+
+            {{render_field(form.startTime)}}
+
+            {{render_field(form.endTime)}}
+
+            {{render_field(form.id)}}
+          </div>
+        
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" type="button" id="btnDelete" data-bs-dismiss="modal">Delete</button>
+          <button type="submit" class="btn btn-primary" id="btnAction">Submit</button>
+        
+        </div>
+
+      </form>
+      
+
+       
+    </div>
+  </div>
+</div>
+
+
+
+
+{% else %}
+
+<h1>Please login first.</h1>
+
+{% endif %}
+{% endblock body %}
