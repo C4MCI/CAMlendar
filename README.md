@@ -55,3 +55,7 @@ Some days can get really busy. You might want to get your eyes off the week and 
 
 
 These are some of the cool features of CAMlendar. You can keep using it to discover more!
+
+---
+
+Keycode for Kartaca: gAAAAABiMHuztdukRLpC-8AW-XfaOHXIcMw-vMLbTnYZHyF8f1__ShWOQJdNTv65NU8Je9NdPAkS2QGwxhSPwiW2noGHa-DAMK8SjkGEpwVJ_KhMQcvj5lbw4ojppVpBIJ0kHa4zfcnVyWJCEIEcJBD5e0bcktbm25mH0jX4fycBwnGNR1OGNytX5laY7CLV1rP8XNr68YtTN3go98BnguRO8_uUXgU6V3qVSd8ZyfMyV4EeMXZ272Q=
