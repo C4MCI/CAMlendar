@@ -1,12 +1,6 @@
-from curses import endwin
 import json
-from optparse import Values
-import string
-from urllib.request import HTTPDigestAuthHandler
-from flask import Flask, render_template, flash, redirect, url_for, session, logging, request
-from flask_mysqldb import MySQL
-from redis import DataError
-from wtforms import Form, StringField, TextAreaField, PasswordField, validators
+from flask import Flask, render_template, flash, redirect, url_for, session, request
+from wtforms import Form, StringField, PasswordField, validators
 from wtforms.fields import DateField, TimeField, HiddenField
 from passlib.hash import sha256_crypt
 from functools import wraps
@@ -91,14 +85,6 @@ class EventForm(Form):
 
 app = Flask(__name__)
 app.secret_key = "calendarapp"
-
-app.config["MYSQL_HOST"] = "localhost"
-app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = ""
-app.config["MYSQL_DB"] = "calendarapp"
-app.config["MYSQL_CURSORCLASS"] = "DictCursor"
-
-mysql = MySQL(app)
 
 redis = redis.Redis(host="redis", port="6379", decode_responses=True)
 
