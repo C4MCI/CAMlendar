@@ -1,6 +1,6 @@
-# CAMlander
+# CAMlendar
 
-CAMlander is a user friendly calendar app for daily usage.
+CAMlendar is a user friendly calendar app for daily usage.
 
 ## Installation
 You should install [Docker](https://www.docker.com) first to use this application. Be sure to install [docker-compose package](https://docs.docker.com/compose/install) too if you are using Linux or Mac. It comes with the installation in Windows so it should be fine.
